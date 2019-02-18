@@ -1,7 +1,10 @@
 
 zuul:
-   routes:
-    product-info-service: /Product/**
+  routes:
+    patient: 
+      path: /productinfo/**
+      serviceId: product-info-service
+
 
 
 
