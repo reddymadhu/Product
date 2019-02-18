@@ -1,9 +1,7 @@
 
 zuul:
-  routes:
-    department: 
-      path: /Product/**
-      serviceId: product-info-service
+   routes:
+    product-info-service: /Product/**
 
 
 
