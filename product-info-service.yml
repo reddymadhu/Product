@@ -1,1 +1,11 @@
+spring:
+  application:
+    name: product-info-service
+    
+  
+server:
+  port: 8010
 
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:8010
