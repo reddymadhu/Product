@@ -1,9 +1,9 @@
 
-zuul:
-  routes:
-    patient: 
-      path: /productinfo/**
-      serviceId: product-info-service
+#zuul:
+  #routes:
+    #patient: 
+      #path: /productinfo/**
+     # serviceId: product-info-service
 
 
 
