@@ -1,19 +1,19 @@
 
-#zuul:
-  #routes:
-    #patient: 
-      #path: /productinfo/**
-     # serviceId: product-info-service
+zuul:
+  routes:
+    patient: 
+      path: /productinfo/**
+      serviceId: product-info-service
 
 
 
 
-#server:
- # port: 8083
-  #compression:
-   # enabled: true
-    #mime-types: application/json,text/css,application/javascript
-    #min-response-size: 2048
+server:
+  port: 8083
+  compression:
+    enabled: true
+    mime-types: application/json,text/css,application/javascript
+    min-response-size: 2048
 
 # Internationalization
 spring.messages.basename: messages/messages
